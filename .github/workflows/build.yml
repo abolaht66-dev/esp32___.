@@ -19,5 +19,5 @@ jobs:
         with:
           esp_idf_version: v5.1.2
           target: esp32
-          path: 'esp32_mastar'
+          path: 'esp32_master'
 
