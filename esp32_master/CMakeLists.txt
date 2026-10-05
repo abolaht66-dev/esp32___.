@@ -1,3 +1,3 @@
-cmake_minimum_required(VERSION 3.16)
-include($ENV{IDF_PATH}/tools/cmake/project.cmake)
-project(esp32_master)
+if(DEFINED SOME_VAR)
+  set_property(GLOBAL PROPERTY "my_prop" "${SOME_VAR}")
+endif(esp32_master)
