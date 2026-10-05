@@ -1,4 +1,4 @@
-name: ESP32 Slave  Build Verification
+name: ESP32 Master Build Verification
 
 on:
   push:
