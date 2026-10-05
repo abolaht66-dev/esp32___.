@@ -1,4 +1,4 @@
-ESP32 Master Build Verification
+name: ESP32 Slave Build Verification
 
 on:
   push:
@@ -19,4 +19,5 @@ jobs:
         with:
           esp_idf_version: v5.1.2
           target: esp32
-          path: 'esp32/mstar/main'
+          path: 'esp32_mastar'
+
