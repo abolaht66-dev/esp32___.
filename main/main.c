@@ -1,7 +1,4 @@
-# Master (STA) - Bridge to Router (open network)
-# Connects to router in STA mode, captures raw 802.11 frames, sends to slave via SPI,
-# and injects uplink frames received from slave into router.
-
+#include "esp_private/wifi.h"
 #include <stdio.h>
 #include <string.h>
 #include "freertos/FreeRTOS.h"
