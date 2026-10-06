@@ -1,6 +1,7 @@
 // Slave (AP) - hosts clients and exchanges raw frames with Master over SPI
 // This implementation stores each captured frame in a queue as a single allocated block
 // with the first two bytes holding the big-endian length, followed by payload.
+#include "esp_private/wifi.h"
 #include <stdio.h>
 #include <string.h>
 #include "freertos/FreeRTOS.h"
@@ -17,7 +18,7 @@
 
 #define TAG "BRIDGE_SLAVE"
 
-#define AP_SSID "ESP_SLAVE_AP"
+#define AP_SSID "Ahmed22"
 #define AP_CHANNEL 1
 
 /* SPI pins (match master wiring) */
